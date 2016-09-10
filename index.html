@@ -52,41 +52,32 @@
 
 <body>
 
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
+    <div id="Carousel" class="carousel slide carousel-fade col-lg-8 col-offset-2">
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="Carousel" data-slide-to="1"></li>
+            <li data-target="Carousel" data-slide-to="2"></li>
         </ol>
 
-        <!-- Wrapper for Slides -->
-		<div class="carousel-fade">
-        <div class="carousel-inner ">
+        <div class="carousel-inner">
             <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('D5S_9272.JPG');"></div>
+                <img src="D5S_9272.JPG" class="img-responsive">
             </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('D5S_9273.JPG');"></div>
+           <div class="item">
+             <img src="D5S_9273.JPG" class="img-responsive">
             </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('D5S_9274.JPG');"></div>
+           <div class="item">
+             <img src="D5S_9274.JPG" class="img-responsive">
             </div>
         </div>
-		</div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
 
-    </header>
+        <a class="left carousel-control" href="#Carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+</div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
