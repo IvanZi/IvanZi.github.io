@@ -124,8 +124,9 @@ iframe {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: none;
+    background-color: #f9f9f9;
     z-index: 9999999;
+	display: none;
 }
 #status {
     width: 40px;
